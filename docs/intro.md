@@ -13,10 +13,10 @@ Unlike traditional 2D pathfinding solutions, AirPath calculates paths in three d
 
 AirPath is designed for scenarios where you need:
 
-- **Aerial navigation**         Drones, birds, helicopters, or any flying agents
-- **Terrain-aware pathing**     Routes that consider mountains, valleys, and elevation changes
-- **High performance**          Burst-compiled jobs that run on multiple threads
-- **Swarm behavior**            Coordinated movement of multiple agents along calculated paths
+- **Aerial navigation**:        Drones, birds, helicopters, or any flying agents
+- **Terrain-aware pathing**:    Routes that consider mountains, valleys, and elevation changes
+- **High performance**:         Burst-compiled jobs that run on multiple threads
+- **Swarm behavior**:           Coordinated movement of multiple agents along calculated paths
 
 ## Key Features
 
