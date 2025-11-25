@@ -49,28 +49,11 @@ AirPath communicates through a robust event system, allowing loose coupling betw
 
 ## How It Works
 
-```
-┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│  Height         │────▶│  PathfindingGrid │────▶│  A* Job         │
-│  Provider       │     │  (NativeArrays)  │     │  (Burst)        │
-└─────────────────┘     └──────────────────┘     └─────────────────┘
-        │                                                │
-        │                                                ▼
-        │                                        ┌─────────────────┐
-        │                                        │  World Path     │
-        │                                        │  (Vector3[])    │
-        │                                        └─────────────────┘
-        │                                                │
-        ▼                                                ▼
-┌─────────────────┐                              ┌─────────────────┐
-│  Unity Terrain  │                              │  Agents/Swarm   │
-│  (or custom)    │                              │  Follow Path    │
-└─────────────────┘                              └─────────────────┘
-```
+<img src={require('@site/static/img/HowItWorks.png').default} alt="How AirPath Works - Architecture Overview" width="500" />
 
 1. **Height Provider** samples terrain elevation data into a grid
 2. **PathfindingGrid** stores this data in Burst-compatible NativeArrays
-3. **A* Job** calculates the optimal path considering height costs
+3. **A Star Job** calculates the optimal path considering height costs
 4. **World Path** is returned as a list of 3D positions
 5. **Agents** follow the calculated path with optional smoothing
 
@@ -93,7 +76,3 @@ AirPath may not be the best fit if:
 ## Next Steps
 
 Ready to get started? Head to the [Requirements](./getting-started/requirements) page to check compatibility, then follow the [Installation](./getting-started/installation) guide to add AirPath to your project.
-
-{/* 
-IMAGE PLACEHOLDER: Hero image showing a swarm of drones navigating around a mountainous terrain with visible path lines. Should showcase the 3D nature of the pathfinding with paths going over and around terrain features.
-*/}

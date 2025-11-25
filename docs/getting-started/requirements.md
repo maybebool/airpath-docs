@@ -10,8 +10,7 @@ Before installing AirPath, ensure your project meets the following requirements.
 
 | Requirement | Version |
 |-------------|---------|
-| **Minimum** | Unity 2022.3 LTS |
-| **Recommended** | Unity 6 (6000.0) or later |
+| **Recommended** | Unity 6 (6000.0.58f2) or later |
 
 AirPath uses Unity's DOTS packages which require Unity 2022.3 or newer. For the best experience and latest DOTS improvements, Unity 6 is recommended.
 
@@ -21,11 +20,11 @@ AirPath depends on the following Unity packages. These will be installed automat
 
 | Package | Minimum Version | Purpose |
 |---------|-----------------|---------|
-| `com.unity.entities` | 1.0.0+ | Entity Component System |
+| `com.unity.entities` | 1.3.14+ | Entity Component System |
 | `com.unity.burst` | 1.8.0+ | High-performance compilation |
 | `com.unity.collections` | 2.1.0+ | Native containers |
 | `com.unity.mathematics` | 1.2.0+ | SIMD math library |
-| `com.unity.inputsystem` | 1.5.0+ | Input handling for demo modes |
+| `com.unity.inputsystem` | 1.7.0+ | Input handling for demo modes |
 
 :::tip Package Installation
 If you need to install these packages manually, open **Window → Package Manager**, click the **+** button, select **Add package by name**, and enter the package identifier (e.g., `com.unity.entities`).
@@ -42,7 +41,7 @@ AirPath's core pathfinding system is render-pipeline agnostic. The visualization
 | High Definition Render Pipeline (HDRP) | ✅ Fully supported |
 
 :::note Visualization Materials
-The included visualization prefabs use standard materials. If you're using URP or HDRP, you may want to upgrade the materials to your pipeline's shader variants for optimal rendering.
+The Demo folder provides prefabs and materials for all 3 render pipelines. Also, there are ready to use scriptable objects for the visualizations for each render pipeline.
 :::
 
 ## Platform Support
@@ -62,18 +61,6 @@ AirPath's Burst-compiled jobs run on all platforms that support Burst compilatio
 :::warning WebGL Limitations
 On WebGL, Burst compilation works but multi-threading is not available. Pathfinding will run synchronously on the main thread, which may impact performance for large grids or frequent recalculations.
 :::
-
-## Hardware Recommendations
-
-For optimal performance:
-
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| CPU | Dual-core | Quad-core or better |
-| RAM | 4 GB | 8 GB or more |
-| GPU | Any (pathfinding is CPU-based) | — |
-
-The pathfinding calculations are CPU-bound and benefit from multiple cores. The grid size and path calculation frequency should be adjusted based on your target hardware.
 
 ## Project Settings
 
