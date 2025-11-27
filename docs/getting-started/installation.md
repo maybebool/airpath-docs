@@ -69,17 +69,10 @@ Assets/
         └──
 ```
 
-## Try the Demo Scene
+## Install completed
 
-AirPath includes a demo scene to help you understand the system:
-
-1. Navigate to `Assets/PlatypusIdeas/AirPath/Samples/Demo/Scenes/`
-2. Open the demo scene
-3. Press **Play**
-4. Click on the terrain to set a start point
-5. Click again to set an end point and calculate a path
-
-<img src={require('@site/static/img/ClickVersion.jpg').default} alt="How AirPath Works - Architecture Overview" width="500" />
+If everything was installed correctly, you should now see the welcome window as in the picture.
+<img src={require('@site/static/img/WelcomeScreen.jpg').default} alt="How AirPath Works - Architecture Overview" width="300" />
 
 
 ## Next Steps
