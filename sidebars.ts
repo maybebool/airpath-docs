@@ -27,7 +27,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'core-concepts/architecture-overview',
         'core-concepts/grid-system',
-        'core-concepts/height-providers',
         'core-concepts/pathfinding-algorithm',
         'core-concepts/configuration-system',
       ],
@@ -42,8 +41,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'setup-guide/terrain-setup',
         'setup-guide/pathfinding-manager',
-        'setup-guide/configuration-assets',
-        'setup-guide/custom-height-provider',
       ],
     },
     {
