@@ -50,6 +50,6 @@ If you encounter issues not covered here:
 
 1. Check the [Changelog](/blog) for known issues and fixes
 2. Review the [API Reference](./category/api-reference) for correct usage
-3. Contact support via the Unity Asset Store
+3. Contact support via info@platypus-ideas.com
 
 {/* More troubleshooting content will be added */}

@@ -56,7 +56,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'api-reference/pathfinding-service',
         'api-reference/height-provider-interface',
-        'api-reference/configuration-classes',
         'api-reference/events',
         'api-reference/grid-utilities',
       ],
