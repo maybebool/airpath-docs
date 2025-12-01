@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkairpath_docs=globalThis.webpackChunkairpath_docs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"AirPath 1.0.0 Release","permalink":"/airpath-docs/blog/airpath-1-0-0-release","unlisted":false,"date":"2025-12-01T00:00:00.000Z"}]}')}}]);

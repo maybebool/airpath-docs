@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkairpath_docs=globalThis.webpackChunkairpath_docs||[]).push([[1661],{7959:a=>{a.exports=JSON.parse('{"authors":[{"name":"Roman Aebi","title":"Unity Software Engineer @ Platypus Ideas","url":"https://github.com/maybebool","imageURL":"https://github.com/maybebool.png","key":"roman","page":null,"count":1}]}')}}]);

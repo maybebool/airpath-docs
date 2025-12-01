@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>AirPath Blog</title>
+        <link>https://maybebool.github.io/airpath-docs/blog</link>
+        <description>AirPath Blog</description>
+        <lastBuildDate>Mon, 01 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[AirPath 1.0.0 Release]]></title>
+            <link>https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release</link>
+            <guid>https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release</guid>
+            <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[I'm excited to announce the official release of AirPath 1.0.0 – a high-performance 3D aerial pathfinding solution for Unity.]]></description>
+            <content:encoded><![CDATA[<p>I'm excited to announce the official release of <strong>AirPath 1.0.0</strong> – a high-performance 3D aerial pathfinding solution for Unity.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="highlights">Highlights<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights" translate="no">​</a></h2>
+<p>AirPath brings efficient 3D pathfinding to Unity with full DOTS integration, enabling thousands of simultaneous path requests while maintaining excellent performance.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-pathfinding">Core Pathfinding<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#core-pathfinding" class="hash-link" aria-label="Direct link to Core Pathfinding" title="Direct link to Core Pathfinding" translate="no">​</a></h3>
+<ul>
+<li class="">A* pathfinding algorithm optimized for 3D aerial navigation</li>
+<li class="">Jump Point Search (JPS) optimization for open-space scenarios</li>
+<li class="">Configurable heuristics (Manhattan, Euclidean, Octile, Chebyshev)</li>
+<li class="">Multi-threaded path computation using Unity Job System</li>
+<li class="">Burst-compiled performance-critical code paths</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="grid-system">Grid System<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#grid-system" class="hash-link" aria-label="Direct link to Grid System" title="Direct link to Grid System" translate="no">​</a></h3>
+<ul>
+<li class="">Flexible 3D grid generation with configurable resolution</li>
+<li class="">Runtime grid updates for dynamic environments</li>
+<li class="">Obstacle detection with layer-based filtering</li>
+<li class="">Support for variable cell sizes and grid dimensions</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="height-providers">Height Providers<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#height-providers" class="hash-link" aria-label="Direct link to Height Providers" title="Direct link to Height Providers" translate="no">​</a></h3>
+<ul>
+<li class="">Terrain Height Provider for Unity Terrain integration</li>
+<li class="">Extensible <code>IHeightProvider</code> interface for custom implementations</li>
+<li class="">Automatic height sampling with configurable offsets</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="configuration">Configuration<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#configuration" class="hash-link" aria-label="Direct link to Configuration" title="Direct link to Configuration" translate="no">​</a></h3>
+<ul>
+<li class="">ScriptableObject-based configuration system</li>
+<li class="">Runtime-adjustable pathfinding parameters</li>
+<li class="">Presets for common use cases (drones, aircraft, flying creatures)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="visualization--debugging">Visualization &amp; Debugging<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#visualization--debugging" class="hash-link" aria-label="Direct link to Visualization &amp; Debugging" title="Direct link to Visualization &amp; Debugging" translate="no">​</a></h3>
+<ul>
+<li class="">Real-time grid visualization with Gizmos</li>
+<li class="">Path debugging with node inspection</li>
+<li class="">Performance metrics overlay</li>
+<li class="">Editor tools for setup and testing</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="render-pipeline-support">Render Pipeline Support<a href="https://maybebool.github.io/airpath-docs/blog/airpath-1-0-0-release#render-pipeline-support" class="hash-link" aria-label="Direct link to Render Pipeline Support" title="Direct link to Render Pipeline Support" translate="no">​</a></h3>
+<ul>
+<li class="">Built-in Render Pipeline</li>
+<li class="">Universal Render Pipeline (URP)</li>
+<li class="">High Definition Render Pipeline (HDRP)</li>
+</ul>]]></content:encoded>
+            <category>Release</category>
+        </item>
+    </channel>
+</rss>

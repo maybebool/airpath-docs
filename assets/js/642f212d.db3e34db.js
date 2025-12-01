@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkairpath_docs=globalThis.webpackChunkairpath_docs||[]).push([[8592],{3314:a=>{a.exports=JSON.parse('{"tags":[{"label":"Release","permalink":"/airpath-docs/blog/tags/release","description":"Release notes","count":1}]}')}}]);
