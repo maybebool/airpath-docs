@@ -274,6 +274,5 @@ void Start()
 
 ## See Also
 
-- [TerrainHeightProvider](../core-concepts/height-providers) — Built-in implementation for Unity Terrain
 - [Grid System](../core-concepts/grid-system) — How the pathfinding grid works
 - [PathfindingService](./pathfinding-service) — How to initialize pathfinding with a height provider

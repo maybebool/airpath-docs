@@ -161,5 +161,4 @@ Configure in `PathfindingConfiguration`:
 ## See Also
 
 - [Grid Utilities](../api-reference/grid-utilities) — API for coordinate conversion
-- [Height Providers](./height-providers) — How terrain data is supplied
 - [Performance Tuning](../advanced/performance-tuning) — Optimizing grid resolution

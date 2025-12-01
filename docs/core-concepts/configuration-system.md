@@ -65,5 +65,4 @@ this.Subscribe<ConfigurationChangedEvent>(evt =>
 For field-by-field documentation:
 
 - **PathfindingConfiguration** — See [Custom Minimal Setup](../setup-guide/terrain-setup) and [Pathfinding Manager](../setup-guide/pathfinding-manager)
-- **VisualizationConfiguration** — See [Visualization Setup](../setup-guide/visualization-setup)
 - **PathfindingEventBus** — See [Events](../api-reference/events)

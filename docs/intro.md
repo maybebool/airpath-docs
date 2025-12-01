@@ -75,4 +75,4 @@ AirPath may not be the best fit if:
 
 ## Next Steps
 
-Ready to get started? Head to the [Requirements](./getting-started/requirements) page to check compatibility, then follow the [Installation](./getting-started/installation) guide to add AirPath to your project.
+Ready to get started? Head to the [Requirements](./docs/getting-started/requirements) page to check compatibility, then follow the [Installation](./docs/getting-started/installation) guide to add AirPath to your project.

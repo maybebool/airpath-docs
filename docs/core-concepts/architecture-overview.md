@@ -122,7 +122,6 @@ All settings are stored in ScriptableObject assets:
 
 This allows hot-swapping configurations and keeping scenes clean.
 
-→ [Visualization Setup](../setup-guide/visualization-setup)
 
 ## Design Principles
 
@@ -173,5 +172,4 @@ The A* calculation runs on a worker thread, but `CalculatePath()` blocks until c
 ## Next Steps
 
 - [Grid System](./grid-system) — How the pathfinding grid works
-- [Height Providers](./height-providers) — Terrain data integration
 - [Pathfinding Algorithm](./pathfinding-algorithm) — The A* implementation

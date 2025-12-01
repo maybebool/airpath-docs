@@ -179,7 +179,6 @@ public class MinimalAirPathSetup : MonoBehaviour
 You now have a working AirPath setup! Here's where to go from here:
 
 - **[Core Concepts](../core-concepts/architecture-overview)** — Understand how AirPath works
-- **[Configuration Assets](../setup-guide/configuration-assets)** — Learn about all configuration options
 - **[Swarm Integration](../advanced/swarm-integration)** — Make agents follow the calculated paths
 
 ## Troubleshooting Quick Start

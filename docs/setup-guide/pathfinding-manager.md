@@ -217,5 +217,4 @@ Enable **Show Heatmap Grid** requires the **Heat Map Cube Prefab** to be assigne
 
 ## What's Next?
 
-- **[Custom Height Provider](./custom-height-provider)** — Use AirPath with non-terrain systems
 - **[Performance Tuning](../advanced/performance-tuning)** — Optimize for your use case
