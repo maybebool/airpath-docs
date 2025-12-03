@@ -98,9 +98,10 @@ function HomepageFeatures(): ReactNode {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
-  const demoImageUrl = useBaseUrl('/img/DemoImage.jpg');
-  
+  const { siteConfig } = useDocusaurusContext();
+  const demoImageUrl2 = useBaseUrl('/img/HeightMap2.jpg');
+  const demoImageUrl3 = useBaseUrl('/img/HeightMap3.jpg');
+
   return (
     <Layout
       title={`${siteConfig.title} - Unity Aerial Pathfinding`}
@@ -108,22 +109,29 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        
+
         <section className={styles.demoSection}>
           <div className="container">
             <div className="row">
               <div className="col col--10 col--offset-1 text--center">
                 <Heading as="h2">
-                  See It In Action
+                  Simple, Efficient, and Powerful
                 </Heading>
-                <p style={{marginBottom: '2rem'}}>
-                  Watch agents navigate complex 3D terrain with smooth, natural flight paths.
+                <p style={{ marginBottom: '2rem' }}>
+                  Follow the instructions and set up AirPath in your Unity project
                 </p>
-                <img 
-                  src={demoImageUrl} 
-                  alt="AirPath Demo - Agents navigating terrain"
-                  className={styles.demoImage}
-                />
+              </div>
+            </div>
+          </div>
+
+          {/* Images outside the container for more width */}
+          <div className="container-fluid">
+            <div className="row" style={{ justifyContent: 'center', marginBottom: '3rem' }}>
+              <div className="col col--4 text--center">
+                <img src={demoImageUrl3} alt="Description 1" className={styles.demoImage} />
+              </div>
+              <div className="col col--4 text--center">
+                <img src={demoImageUrl2} alt="Description 2" className={styles.demoImage} />
               </div>
             </div>
           </div>
