@@ -24,6 +24,7 @@ Complete the [Custom Minimal Setup](./terrain-setup) first. You should have a wo
 
 ### Path Visualization Toggles
 
+
 These toggles control which visual elements are active:
 
 | Setting | Default | Description |
