@@ -17,6 +17,18 @@ const sidebars: SidebarsConfig = {
         'getting-started/quick-start',
       ],
     },
+     {
+      type: 'category',
+      label: 'Setup Guide',
+      link: {
+        type: 'generated-index',
+        description: 'Step-by-step guides for configuring AirPath.',
+      },
+      items: [
+        'setup-guide/terrain-setup',
+        'setup-guide/pathfinding-manager',
+      ],
+    },
     {
       type: 'category',
       label: 'Core Concepts',
@@ -29,18 +41,6 @@ const sidebars: SidebarsConfig = {
         'core-concepts/grid-system',
         'core-concepts/pathfinding-algorithm',
         'core-concepts/configuration-system',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Setup Guide',
-      link: {
-        type: 'generated-index',
-        description: 'Step-by-step guides for configuring AirPath.',
-      },
-      items: [
-        'setup-guide/terrain-setup',
-        'setup-guide/pathfinding-manager',
       ],
     },
     {
