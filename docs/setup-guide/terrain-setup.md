@@ -174,6 +174,34 @@ public class MinimalAirPathSetup : MonoBehaviour
 }
 ```
 
+## About the Terrain Setup
+
+In the demo scene, you'll notice the Terrain GameObject has a **TerrainController** component attached. It's important to understand that this component is **not required** for AirPath to function.
+
+### TerrainController (Demo Only)
+
+The `TerrainController` is our demo-specific implementation that provides:
+- Debug visualization (heatmap grid overlay)
+- Path cell coloring for visual feedback
+- Runtime grid visibility toggling
+
+This component exists purely for demonstration and debugging purposes. **You are free to replace it with your own terrain management solution** or remove it entirely in production.
+
+<a href={require('@site/static/img/TerrainControllerInspector.jpg').default} target="_blank">
+  <img src={require('@site/static/img/TerrainControllerInspector.jpg').default} alt="Target Follow Inspector" width="500" />
+</a>
+
+### TerrainHeightProvider (Required)
+
+The only terrain-related component that AirPath actually requires is the **TerrainHeightProvider**. This component is responsible for supplying terrain height data to the pathfinding system.
+
+:::info Key Takeaway
+**TerrainHeightProvider** = Required for pathfinding to work  
+**TerrainController** = Optional demo helper for visualization
+:::
+
+If you're integrating AirPath into your own project and already have terrain management in place, you only need to ensure that a `TerrainHeightProvider` is configured. The visualization features from `TerrainController` can be useful during development but should typically be disabled or removed for release builds.
+
 ## What's Next?
 
 You now have a working AirPath setup! Here's where to go from here:
